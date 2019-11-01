@@ -1,7 +1,7 @@
 Package.describe({
   name: 'peerlibrary:subscription-scope',
   summary: "Scope queries on collections to subscriptions",
-  version: '0.5.0',
+  version: '0.4.0',
   git: 'https://github.com/peerlibrary/meteor-subscription-scope.git'
 });
 
@@ -10,7 +10,7 @@ Package.onUse(function (api) {
 
   // Core dependencies.
   api.use([
-    'coffeescript@2.4.1',
+    'coffeescript@2.3.2_1',
     'ecmascript',
     'underscore',
     'minimongo'
@@ -35,7 +35,7 @@ Package.onTest(function (api) {
 
   // Core dependencies.
   api.use([
-    'coffeescript@2.4.1',
+    'coffeescript@2.3.2_1',
     'ecmascript',
     'random',
     'underscore',
